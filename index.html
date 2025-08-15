@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html><head><meta charset="UTF-8">
 <!--
-https://github.com/cmdr-nowski/syscol_helper
+https://github.com/cmdr-nowski/scuffed
 
 This webpage was uses game logic, names and and imagery from Elite Dangerous
 with the permission of Frontier Developments plc, for non-commercial purposes.
 See: https://forums.frontier.co.uk/threads/elite-dangerous-media-usage-rules.510879/.
-It is not endorsed by nor reflects the views or opinions of Frontier Developments and
-no employee of Frontier Developments was involved in making it.
+It is not endorsed by nor does it reflect the views or opinions of Frontier
+Developments and no employee of Frontier Developments was involved in making it.
 
 See also: https://www.elitedangerous.com
 -->
@@ -964,6 +964,7 @@ const commodityGroups = [
     { al: 2410, bf: 210, cc: 40, cm: 170, cr: 250, cu: 85, ec: 45, es: 50, fo: 50, fr: 35, hs: 85, mc: 50, me: 415, mf: 415, pg: 25, py: 665, rb: 335, se: 75, sr: 500, ss: 500, st: 3320, su: 75, sv: 25, tc: 120,},
 ];
 
+
 const headers = ["+", "asset", "type", "cost", "gain", "pop", "mpop", "sec", "wealth", "tech", "sol", "dev", "economy", "influence"];
 
 const assets = {
@@ -1424,7 +1425,7 @@ const assets = {
       variants: ["tartarus"],
       cost: {tier: 2, amount: 1},
       gain: {tier: 3, amount: 1},
-      effect: { pop: 0,mpop: 0,sec: 0,wealth: 10,tech: 0,sol: -4,dev: 3 },
+      effect: { pop: 1,mpop: 1,sec: 0,wealth: 10,tech: 0,sol: -4,dev: 3 },
       economy: { initial: "-", influence: "extraction"}
    },
    "Hub Civilian": {
@@ -1434,7 +1435,7 @@ const assets = {
       variants: ["aegle"],
       cost: {tier: 2, amount: 1},
       gain: {tier: 3, amount: 1},
-      effect: { pop: 0,mpop: 0,sec: -3,wealth: 0,tech: 0,sol: 3,dev: 3 },
+      effect: { pop: 1,mpop: 1,sec: -3,wealth: 0,tech: 0,sol: 3,dev: 3 },
       economy: { initial: "-", influence: "-"}
    },
    "Hub Exploration": {
@@ -1444,7 +1445,7 @@ const assets = {
       variants: ["tellus_e"],
       cost: {tier: 2, amount: 1},
       gain: {tier: 3, amount: 1},
-      effect: { pop: 0,mpop: 0,sec: -1,wealth: 0,tech: 7,sol: 0,dev: 3 },
+      effect: { pop: 1,mpop: 1,sec: -1,wealth: 0,tech: 7,sol: 0,dev: 3 },
       economy: { initial: "-", influence: "tourism"}
    },
    "Hub Outpost": {
@@ -1454,7 +1455,7 @@ const assets = {
       variants: ["io"],
       cost: {tier: 2, amount: 1},
       gain: {tier: 3, amount: 1},
-      effect: { pop: 0,mpop: 0,sec: -2,wealth: 0,tech: 0,sol: 3,dev: 3 },
+      effect: { pop: 1,mpop: 1,sec: -2,wealth: 0,tech: 0,sol: 3,dev: 3 },
       economy: { initial: "-", influence: "-"}
    },
    "Hub Scientific": {
@@ -1464,7 +1465,7 @@ const assets = {
       variants: ["athena","caelus"],
       cost: {tier: 2, amount: 1},
       gain: {tier: 3, amount: 1},
-      effect: { pop: 0,mpop: 0,sec: 0,wealth: 0,tech: 10,sol: 0,dev: 0 },
+      effect: { pop: 1,mpop: 1,sec: 0,wealth: 0,tech: 10,sol: 0,dev: 0 },
       economy: { initial: "-", influence: "hightech"}
    },
    "Hub Military": {
@@ -1474,7 +1475,7 @@ const assets = {
       variants: ["alala","ares"],
       cost: {tier: 2, amount: 1},
       gain: {tier: 3, amount: 1},
-      effect: { pop: 0,mpop: 0,sec: 10,wealth: 0,tech: 0,sol: 0,dev: 0 },
+      effect: { pop: 1,mpop: 1,sec: 10,wealth: 0,tech: 0,sol: 0,dev: 0 },
       economy: { initial: "-", influence: "military"}
    },
    "Hub Refinery": {
@@ -1484,7 +1485,7 @@ const assets = {
       variants: ["silenus"],
       cost: {tier: 2, amount: 1},
       gain: {tier: 3, amount: 1},
-      effect: { pop: 0,mpop: 0,sec: -1,wealth: 5,tech: 3,sol: -2,dev: 7 },
+      effect: { pop: 1,mpop: 1,sec: -1,wealth: 5,tech: 3,sol: -2,dev: 7 },
       economy: { initial: "-", influence: "refinery"}
    },
    "Hub High Tech": {
@@ -1494,7 +1495,7 @@ const assets = {
       variants: ["janus"],
       cost: {tier: 2, amount: 1},
       gain: {tier: 3, amount: 1},
-      effect: { pop: 0,mpop: 0,sec: -2,wealth: 3,tech: 10,sol: 0,dev: 0 },
+      effect: { pop: 1,mpop: 1,sec: -2,wealth: 3,tech: 10,sol: 0,dev: 0 },
       economy: { initial: "-", influence: "hightech"}
    },
    "Hub Industrial": {
@@ -1504,7 +1505,7 @@ const assets = {
       variants: ["molae","tellus_i","eunostus"],
       cost: {tier: 2, amount: 1},
       gain: {tier: 3, amount: 1},
-      effect: { pop: 0,mpop: 0,sec: 0,wealth: 5,tech: 3,sol: -4,dev: 3 },
+      effect: { pop: 1,mpop: 1,sec: 0,wealth: 5,tech: 3,sol: -4,dev: 3 },
       economy: { initial: "-", influence: "industrial"}
    }
 };
